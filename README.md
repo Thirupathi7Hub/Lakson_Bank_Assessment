@@ -72,7 +72,7 @@ A clean, modern, and professional single-screen **Banking Products Dashboard** b
 ```bash
 # 1. Clone repository
 git clone https://github.com/Thirupathi7Hub/Lakson_Bank_Assessment.git
-cd Lakson_Bank_Assessment/banking-dashboard
+cd Lakson_Bank_Assessment
 
 # 2. Install dependencies
 npm install
