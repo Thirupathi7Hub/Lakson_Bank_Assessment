@@ -1,0 +1,110 @@
+/* ==========================================================================
+   SIMPLE & PREMIUM DESIGN SYSTEM TOKENS
+   Clean, modern, professional banking UI tokens (Light & Dark)
+   ========================================================================== */
+
+:root {
+  /* Light Theme (Default) */
+  --bg-app: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-card-subtle: #f1f5f9;
+  --bg-input: #ffffff;
+  --bg-modal-backdrop: rgba(15, 23, 42, 0.5);
+
+  --border-subtle: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-active: #0f172a;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+
+  --btn-primary-bg: #0f172a;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #1e293b;
+
+  --btn-secondary-bg: #ffffff;
+  --btn-secondary-text: #0f172a;
+  --btn-secondary-border: #cbd5e1;
+  --btn-secondary-hover: #f8fafc;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+}
+
+[data-theme='dark'] {
+  /* Pure Pitch Black (OLED) Theme */
+  --bg-app: #000000;
+  --bg-surface: #000000;
+  --bg-card: #080808;
+  --bg-card-hover: #121212;
+  --bg-card-subtle: #0f0f0f;
+  --bg-input: #080808;
+  --bg-modal-backdrop: rgba(0, 0, 0, 0.88);
+
+  --border-subtle: #1c1c1e;
+  --border-medium: #2c2c2e;
+  --border-active: #ffffff;
+
+  --text-primary: #ffffff;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
+
+  --btn-primary-bg: #ffffff;
+  --btn-primary-text: #000000;
+  --btn-primary-hover: #f4f4f5;
+
+  --btn-secondary-bg: #121212;
+  --btn-secondary-text: #ffffff;
+  --btn-secondary-border: #262626;
+  --btn-secondary-hover: #1a1a1a;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.9);
+  --shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.85);
+  --shadow-md: 0 4px 8px -1px rgba(0, 0, 0, 0.95);
+  --shadow-lg: 0 12px 24px -4px rgba(0, 0, 0, 0.98);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100%;
+  font-family: var(--font-sans);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input, select {
+  font-family: inherit;
+}
+
+.tabular-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
