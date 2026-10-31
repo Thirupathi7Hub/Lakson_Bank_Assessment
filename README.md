@@ -4,6 +4,8 @@ A responsive banking dashboard built with React and Vite to provide a unified vi
 
 The application brings savings accounts, credit cards, loans, and investment products into a single interface, with interactive search, filtering, and multiple viewing options.
 
+🚀 **Live Deployment**: [https://laksonassessment.vercel.app/](https://laksonassessment.vercel.app/)
+
 ---
 
 ## Features
@@ -130,7 +132,7 @@ npm install
 npm run dev
 ```
 
-Open the application at: [http://localhost:5173](http://localhost:5173)
+Open the application at: [http://localhost:5173](http://localhost:5173) (or visit the live deployment at [https://laksonassessment.vercel.app/](https://laksonassessment.vercel.app/))
 
 ### Production Build
 To generate an optimized production build:
@@ -143,6 +145,7 @@ npm run build
 ## Project Information
 
 - **Project**: Lakson Bank — Banking Products Dashboard
+- **Live URL**: [https://laksonassessment.vercel.app/](https://laksonassessment.vercel.app/)
 - **Type**: Frontend Web Application
 - **Framework**: React
 - **Build Tool**: Vite
